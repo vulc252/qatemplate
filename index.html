@@ -1,8 +1,256 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title> Demo </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>FAQ Kiểm định chất lượng</title>
 </head>
 <body>
-  <h2>welcome to</h2>
+<header class="cd-header flex flex-column flex-center">
+  <div class="text-component text-center">
+    <h1>CÂU HỎI THƯỜNG GẶP</h1>
+    <p>👈 <a class="cd-article-link" href="https://kdclgd.binhphuoc.edu.vn">Phần mềm Kiểm định chất lượng giáo dục</a></p>
+  </div>
+</header>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories"> 
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Chung</a></li>
+		<li><a class="cd-faq__category truncate" href="#mobile">Cơ sở dữ liệu nhà trường</a></li>
+		<li><a class="cd-faq__category truncate" href="#account">Thông tin tự đánh giá</a></li>
+		<li><a class="cd-faq__category truncate" href="#payments">Báo cáo thống kê</a></li>
+		<!--<li><a class="cd-faq__category truncate" href="#privacy">Khác</a></li>-->
+		<!--<li><a class="cd-faq__category truncate" href="#delivery">Delivery</a></li>-->
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Chung</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Làm thế nào khi quên tài khoản, mật khẩu?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Hãy liên hệ bộ phận hỗ trợ khách hàng qua Zalo, Số điện thoại?</p>
+			<p>Tham gia nhóm Zalo hỗ trợ KĐCLGD: <a href="https://zalo.me/g/amvusf088">https://zalo.me/g/amvusf088</a></p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+			
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Làm thế nào để thay đổi mật khẩu?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Để thay đổi mật khẩu thì người dùng thao tác như sau:</p>
+			<img alt="Thay đổi mật khẩu" aria-placeholder="Thay đổi mật khẩu" src="assets/images/1.png"/>
+			<p>Bước 1: Bấm vào biểu tượng tên người dùng. Chọn Thay đổi mật khẩu</p>
+			<img alt="Thay đổi mật khẩu" src="assets/images/2.png"/>
+			<p>Bước 2: Nhập mật khẩu cũ. Mật khẩu mới. Xác nhận mật khẩu mới. Bấm nút Lưu lại</p>
+		</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Kiểm định chất lượng nhà trường gồm mấy khâu? Đó là những khâu nào? Khâu nào quan trọng nhất? Khâu nào nhà trường phải làm?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>KĐCL nhà trường gồm 4 khâu, đó là:</p>
+						<p>1. Tự đánh giá của nhà trường.</p>
+						<p>2. Đăng ký KĐCLGD/ đăng ký đánh giá ngoài và đăng ký công nhận đạt tiêu chuẩn chất lượng giáo dục.</p>
+						<p>3. Đánh giá ngoài.</p>
+						<p>4. Công nhận nhà trường đạt tiêu chuẩn chất lượng giáo dục và cấp giấy chứng nhận kiểm định chất lượng giáo dục.</p>
+						<p>Trong đó, khâu Tự đánh giá là khâu quan trọng nhất và là nhiệm vụ nhà trường phải làm thường xuyên liên tục.</p>
+					  </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Vì sao có dấu chấm thang màu đỏ khi tải tệp lên? Cách sửa như thế nào?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Nguyên nhân: Tệp tin đang tải lên có dữ liệu chưa đúng định dạng.</p>
+						<img alt="Thay đổi mật khẩu" src="assets/images/20.png"/>
+						<p>Cách sửa:</p>
+						<p>1. Rê chuột vào vị trí dấu chấm thang màu đỏ để xem chi tiết thông báo lỗi. (Như hình là Lỗi Mã minh chứng không đúng định dạng).</p>
+						<img alt="a" src="assets/images/21.png"/>
+						<p>2. Tùy vào nội dung mà hệ thống sẽ có thông báo tương ứng.</p>
+						<p>3. Chỉnh sửa lại nội dung bị sai định dạng.</p>
+						<p>4. Tải lại tệp tin lên hệ thống.</p>
+					  </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Cơ sở dữ liệu nhà trường</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Vì sao không cập nhật được số liệu hoặc đồng bộ trong Thông tin lớp học?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+			<img alt="Không có khối lớp" src="assets/images/3.png"/>
+            <p>Nguyên nhân: Do trong năm học mới, đơn vị Trường chưa thực hiện thêm các khối lớp. Để cập nhật được thông tin lớp học trong năm học mới, thì đơn vị phải khai báo các khối lớp tương ứng.</p>
+			<p>Bước 1: Vào cơ sở dữ liệu nhà trường. Chọn Quản lý Khối học</p>
+			<img alt="Quản lý khối học" src="assets/images/4.png"/>
+			<p>Bước 2: Nhấn nút Thêm mới</p>
+			<img alt="Quản lý khối học" src="assets/images/5.png"/>
+			<p>Bước 3: Chọn Khối lớp. Nhấn nút Thêm mới để thêm</p>
+			<img alt="Quản lý khối học" src="assets/images/6.png"/>
+			<p>👈 Sau khi thực hiện xong 3 bước trên thì người dùng có thể cập nhật số liệu hoặc đồng bộ dữ liệu Thông tin lớp học</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Khi cập nhật cơ sở dữ liệu nhà trường cần chú ý những điểm gì?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+			<p>Trả lời:</p>
+            <p>- Điền đầy đủ các thông tin số liệu vào biểu mẫu. Số liệu đảm bảo tuyệt đối chính xác.</p>
+			<p>- Những ô nào không có dữ liệu ghi rõ là “0”</p>
+			<p>- Các cột tổng số hàng ngang, hàng dọc phải chính xác.</p>
+			<p>- Số liệu thời điểm tự đánh gia thường lấy số liệu học kỳ I (vì hàng năm nhà trường hoàn thiện tự đánh giá vào tháng 3)</p>
+			<p>- Các số liệu trong báo cáo phải đồng nhất, tránh mâu thuẩn, sai lệch.</p>
+			<p>- Cách ghi dạng số thập phân phải theo qui định.</p>
+			<p>- Đảm bảo giữ nguyên biểu mẫu, không xoá bỏ cột, dòng.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>			
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Thông tin tự đánh giá</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Thế nào là tự đánh giá (TĐG) chất lượng giáo dục?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Tự đánh giá là hoạt động tự xem xét, kiểm tra, đánh giá của trường theo bộ tiêu chuẩn đánh giá chất lượng giáo dục của Bộ GD&ĐT.</p>
+			<p>Tự đánh giá là khâu đầu tiên trong quy trình kiểm định chất lượng giáo dục  Đây là quá trình nhà trường tự xem xét, kiểm tra, đánh giá trên cơ sở các tiêu chuẩn đánh giá chất lượng giáo dục của Bộ Giáo dục và Đào tạo để báo cáo về tình trạng chất lượng, hiệu quả giáo dục, nhân lực, cơ sở vật chất cũng như các vấn đề liên quan khác, từ đó điều chỉnh các nguồn lực và quá trình thực hiện nhằm đáp ứng các tiêu chuẩn chất lượng giáo dục.</p>
+			<p>Tự đánh giá thể hiện tính tự chủ và tự chịu trách nhiệm của nhà trường trong toàn bộ hoạt động giáo dục theo chức năng, nhiệm vụ được giao.</p>
+			<p>Tự đánh giá là một quá trình liên tục được thực hiện theo kế hoạch, cần dành nhiều công sức, thời gian, có sự tham gia của các đơn vị và cá nhân trong nhà trường. Tự đánh giá đòi hỏi tính khách quan, trung thực và công khai. Các giải thích, nhận định, kết luận đưa ra phải dựa trên các thông tin, minh chứng cụ thể, rõ ràng, tin cậy. Báo cáo tự đánh giá phải bao quát đầy đủ nội dung các chỉ số của tiêu chí trong tiêu chuẩn đánh giá chất lượng giáo dục.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Quy trình tự đánh giá nhà trường gồm mấy bước? Đó là những bước naò? Sản phẩm của mỗi bước là gì?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Gồm 6 bước đó là:</p>
+			<p>1. Thành lập Hội đồng tự đánh giá -> Kết quả được (QĐ thành lập HĐTĐG)</p>
+			<p>2. Xây dựng kế hoạch tự đánh giá, gồm 2 bước là: Xác định mục đích, phạm vi TĐG và xây dựng kế hoạch TĐG -> kết quả được (Kế hoạch TĐG).</p>
+			<p>3. Thu thập, xử lý và phân tích các thông tin, minh chứng -> Kết quả được (Bảng danh mục minh chứng).</p>
+			<p>4. Đánh giá mức độ đạt được theo từng tiêu chí ->(Phiếu đánh giá tiêu chí).</p>
+			<p>5. Viết báo cáo tự đánh giá -> Kết quả được (Báo cáo TĐG).</p>
+			<p>6. Công bố báo cáo tự đánh giá -> (Các ý kiến góp ý về báo cáo TĐG).</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Vì sao không chỉnh sửa, cập nhật được thông tin tự đánh giá?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Nguyên nhân: Do đơn vị trường đã thực hiện thao tác Đăng ký đánh giá ngoài và hoàn thành tự đánh giá. Khi thực hiện đăng ký đánh giá ngoài thì đơn vị Trường sẽ không thể chỉnh sửa các nội dung Tự đánh giá được nữa.</p>
+			<img alt="Hoàn thành tự đánh giá" src="assets/images/7.png"/>
+			<p>Cách sửa:</p>
+			<p>Cách 1. Kiểm tra có thể Tiếp tục chỉnh sửa không. Vào mục Thông tin tự đánh giá. Chọn Đăng ký đánh giá ngoài. Bấm Tiếp tục Chỉnh sửa. </p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/8.png"/>
+			<p>Cách 2.Trường hợp không có nút Tiếp tục chỉnh sửa thì Gửi yêu cầu thu hồi dữ liệu và liên hệ Phòng/Sở giáo dục để Thu hồi dữ liệu đăng ký đánh giá ngoài. Sau khi thu hồi dữ liệu. Thao tác lại cách 1 để chỉnh sửa.</p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/9.png"/>
+			<p>Trường sẽ nhận được thông báo về việc thu hồi dữ liệu, sau khi Phòng GD thực hiện thu hồi dữ liệu.</p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/10.png"/>
+			<p>Trường Vào mục Thông tin tự đánh giá. Chọn Đăng ký đánh giá ngoài. Bấm Tiếp tục Chỉnh sửa.</p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/11.png"/>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Vì sao không xóa được minh chứng trong phần danh mục mã hóa minh chứng?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Nguyên nhân: Do minh chứng đó đang được sử dụng trong phần tự đánh giá tiêu chuẩn tiêu chí.</p>
+			<img alt="Hoàn thành tự đánh giá" src="assets/images/12.png"/>
+			<p>Cách sửa:</p>
+			<p>Bước 1. Bấm vào nút Chi tiết ở minh chứng muốn xóa. </p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/13.png"/>
+			<p>Trong phần thông tin minh chứng. Xem 2 mục Tiêu chuẩn và tiêu chí. ==> Minh chứng này đang được dùng ở Tiêu chuẩn 1, Tiêu chí 1.1</p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/14.png"/>
+			<p>Bước 2. Vào mục Thông tin tự đánh giá. Chọn Tự đánh giá tiêu chuẩn-tiêu chí. Tìm tới Tiêu chuẩn 1. Tiêu chí 1.1. Vào mục Minh chứng. Bấm nút Thêm minh chứng.</p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/15.png"/>
+			<p>Bước 3. Bỏ dấu tích chọn ở minh chứng cần xóa. Nhấn nút Lưu lai.</p>
+			<img alt="Tiếp tục chỉnh sửa tự đánh giá" src="assets/images/16.png"/>
+			<p>Bước 4. Quay lại danh mục mã hóa minh chứng. Thực hiện xóa minh chứng.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+
+			
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="payments" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Báo cáo thống kê</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Không tải được file báo cáo, file thống kê?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Không xem được file báo cáo hoặc thống kê?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo placeat quos nisi architecto rem dolorum amet consectetur molestiae reprehenderit cum harum commodi beatae necessitatibus. Mollitia a nostrum enim earum minima doloribus illum autem, provident vero et, aspernatur quae sunt illo dolorem. Corporis blanditiis, unde, neque, adipisci debitis quas ullam accusantium repudiandae eum nostrum quis! Velit esse harum qui, modi ratione debitis alias laboriosam minus eaque, quod, itaque labore illo totam aut quia fuga nemo. Perferendis ipsa laborum atque assumenda tempore aspernatur a eos harum non id commodi excepturi quaerat ullam, explicabo, incidunt ipsam, accusantium quo magni ut! Ratione, magnam. Delectus nesciunt impedit praesentium sed, aliquam architecto dolores quae, distinctio consectetur obcaecati esse, consequuntur vel sit quis blanditiis possimus dolorum. Eaque architecto doloremque aliquid quae cumque, vitae perferendis enim, iure fugiat, soluta aut!</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Nội dung báo cáo, thống kê bị lỗi ký tự?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Nguyên nhân: Do hệ thống cập nhật công cụ nhập liệu mới so với công cụ nhập dữ liệu trước đây.</p>
+			<img alt="Hoàn thành tự đánh giá" src="assets/images/17.png"/>
+			<p>Cách sửa: Hiện tại hệ thống đã tự động chỉnh sửa lỗi hiển thị ký tự.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Làm sao để kiểm tra tình hình đánh giá của Trường?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Để kiểm tra tự đánh giá thì Trường vào mục Báo cáo Thống kê. Chọn Thống kê kết quả tự đánh giá.</p>
+			<img alt="Hoàn thành tự đánh giá" src="assets/images/18.png"/>
+			<p>Kiểm tra mục đã đánh giá. Nếu tiêu chí nào chưa có dấu tích thì chưa thực hiện. Trường tiến hành cập nhật, bổ sung dữ liệu cho tiêu chí đó.</p>
+			<img alt="Hoàn thành tự đánh giá" src="assets/images/19.png"/>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		
+
+		</ul> <!-- cd-faq__group -->
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script> 
 </body>
 </html>
