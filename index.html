@@ -10,6 +10,24 @@
   <title>FAQ Kiểm định chất lượng</title>
 </head>
 <body>
+	<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.2.0-beta.6/libs/oversea/index.js"></script>
+<script>
+  new CozeWebSDK.WebChatClient({
+    config: {
+      bot_id: '7425844941798506504',
+    },
+    componentProps: {
+      title: 'Coze',
+    },
+    auth: {
+      type: 'token',
+      token: 'pat_********',
+      onRefreshToken: function () {
+        return 'pat_********'
+      }
+    }
+  });
+</script>
 <header class="cd-header flex flex-column flex-center">
   <div class="text-component text-center">
     <h1>CÂU HỎI THƯỜNG GẶP</h1>
